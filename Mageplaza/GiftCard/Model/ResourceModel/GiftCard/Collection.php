@@ -9,8 +9,8 @@ use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 class Collection extends AbstractCollection
 {
     protected $_idFieldName = 'giftcard_id';
-    protected $_eventPrefix = 'mageplaza_giftcard_giftcardCode_collection';
-    protected $_eventObject = 'giftcard_code_collection';
+    protected $_eventPrefix = 'giftcard_code_collection';
+    protected $_eventObject = 'giftcard_collection';
 
     /**
      * Define resource model

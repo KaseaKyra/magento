@@ -28,6 +28,8 @@ class Test extends Action
 
     public function execute()
     {
-        $this->_giftcardModel->insertGiftCard(2, '2', '2', '2', '000000001');
+//        $this->_giftcardModel->insertGiftCard(2, '2', '2', '2', '000000001');
+//        $this->_giftcardModel->deleteGiftCard(2);
+//        $this->_giftcardModel->updateGiftCard(1, '1');
     }
 }
